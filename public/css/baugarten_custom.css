@@ -4,4 +4,8 @@
 * http://www.baugarten.io
 */
 
-
+#homepage {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
