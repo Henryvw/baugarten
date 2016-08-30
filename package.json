@@ -14,5 +14,8 @@
     "baugarten"
   ],
   "author": "Henry van Wagenberg",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
 }
