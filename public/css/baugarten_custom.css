@@ -10,3 +10,14 @@
   background-position: center;
   background-image: url('../images/humboldt_background.jpg');
 }
+
+#hero-h1 {
+  font-size: 7.0rem;
+  letter-spacing: .2rem;
+  margin-bottom: 0.75rem;
+}
+
+#hero-h5 {
+  margin-bottom: 0.75rem;
+  letter-spacing: .04rem;
+}
