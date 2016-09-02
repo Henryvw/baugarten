@@ -23,6 +23,9 @@
   color: white;
   letter-spacing: -.2rem;
   margin-bottom: 0.75rem;
+}
+
+#hero-h1 span {
   padding-top: 10%;
   padding-bottom: 10%;
   padding-left: 10%;
@@ -39,4 +42,5 @@
   padding-left: 2%;
   padding-right: 2%;
   background-color: rgb(225,66,44);
+  text-align: center;
 }
