@@ -58,18 +58,19 @@
 }
 
 #baugarten-team {
-  display: inline-block;
+}
+
+#baugarten-team ul li {
+  list-style: none;
 }
 
 #baugarten-team-image {
   width: 75%;
   background-color: rgb(225,66,44);
-  border: 10px solid;
+  border: 7px solid;
   border-color: rgb(225,66,44);
   box-sizing: border-box;
   border-radius: 100%;
   text-align: center;
   display: inline-block;
 }
-
-
