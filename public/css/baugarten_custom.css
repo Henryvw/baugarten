@@ -7,14 +7,14 @@
 #hero {
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+  background-position: center fixed;
   background-image: url('../images/humboldt_background.jpg');
   
 }
 
 @media (max-width: 550px) {
   #hero{
+    background-attachment: fixed;
     background-image: url('../images/humboldt_background_mobile.jpg');
   }
 }
@@ -41,11 +41,16 @@
 }
 
 @media (max-width: 550px) {
+  #hero-h1 {
+    text-align: center;
+  }
+
   #hero-h1 span {
     padding-top: 5%;
     padding-bottom: 5%;
     padding-left: 10%;
     padding-right: 10%;
+    display: inline-block;
   }
 }
 
