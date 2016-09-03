@@ -23,7 +23,6 @@
 }
 
 #hero-h1 {
-  text-align: center;
   font-size: 5.25rem;
   font-weight: 700;
   color: white;
@@ -41,8 +40,12 @@
 }
 
 @media (max-width: 550px) {
-  #hero-h1 {
+  #hero-title h1 {
     text-align: center;
+  }
+
+  #hero-h1 h1 {
+    display: inline-block;
   }
 
   #hero-h1 span {
@@ -50,7 +53,6 @@
     padding-bottom: 5%;
     padding-left: 10%;
     padding-right: 10%;
-    display: inline-block;
   }
 }
 
