@@ -9,7 +9,6 @@
   background-size: cover;
   background-position: center fixed;
   background-image: url('../images/humboldt_background.jpg');
-  
 }
 
 @media (max-width: 550px) {
@@ -20,6 +19,7 @@
 }
 
 #hero-title {
+  height: 400px;
 }
 
 #hero-h1 {
@@ -98,6 +98,20 @@
   font-size: 14px;
   height: 52px;
   line-height: 52px;
+}
+
+#baugarten-team {
+  text-align: center;
+}
+
+#baugarten-team h6 {
+  margin-bottom: -0.75rem;
+  font-size: 12px;
+}
+
+#baugarten-team a {
+  font-size: 12px;
+  margin-bottom: 10rem;
 }
 
 @media (max-width: 550px) {
