@@ -83,8 +83,6 @@
   border-color: rgb(225,66,44);
   box-sizing: border-box;
   border-radius: 100%;
-  text-align: center;
-  display: inline-block;
 }
 
 #button-contact-baugarten {
@@ -105,7 +103,7 @@
 }
 
 #baugarten-team h6 {
-  margin-bottom: -0.4rem;
+  margin-bottom: -0.3rem;
   font-size: 12px;
   background-color: rgb(225,66,44);
   color: white;
@@ -120,7 +118,6 @@
   font-size: 12px;
   background-color: rgb(225,66,44);
   color: white;
-  padding-top: 3%;
   padding-bottom: 3%;
 }
 
