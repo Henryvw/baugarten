@@ -3,20 +3,23 @@
 * By Henry van Wagenberg, 2016-17
 * http://www.baugarten.io
 */
+body {
+  background-color: rgb(225,66,44);
+}
 
 #hero {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center fixed;
-  background-image: url('../images/humboldt_background.jpg');
-  min-height: 100%;
+  background-image: url('../images/humboldt_background_compressed.jpg');
+  min-height: 100vh;
 }
 
 @media (max-width: 550px) {
   #hero{
     background-attachment: fixed;
     background-image: url('../images/humboldt_background_mobile.jpg');
-    height: 600px;
+    min-height: 100vh;
   }
 }
 
@@ -44,6 +47,7 @@
   #hero-title h1 {
     text-align: center;
     font-size: 4.5rem;
+    padding-bottom: 2.5%;
   }
 
   #hero-h1 h1 {
@@ -79,8 +83,8 @@
   background-color: rgb(225,66,44);
   display: inline-block;
   font-size: 14px;
-  height: 52px;
-  line-height: 52px;
+  height: 58px;
+  line-height: 58px;
 }
 
 @media (max-width: 550px) {
@@ -88,7 +92,7 @@
     font-size: 24px;
     height: 68px;
     line-height: 68px;
-    margin-bottom: 60%;
+    margin-bottom: 80%;
   }
 }
 
@@ -131,6 +135,7 @@
 #contact-baugarten {
   background-color: rgb(225,66,44);
   color: white;
+  margin-bottom: -2%
 }
 
 #contact-baugarten ul li {
