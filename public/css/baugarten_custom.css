@@ -129,12 +129,6 @@ body {
   border-radius: 100%;
 }
 
-@media (max-width: 769px) {
-  #baugarten-team-image {
-    margin-top: 375%;
-  }
-}
-
 #baugarten-team {
   text-align: center;
 }
@@ -164,6 +158,12 @@ body {
   }
 }
 
+@media (max-width: 769px) {
+  #baugarten-team {
+    margin-top: 375%;
+  }
+}
+
 #baugarten-bold {
   font-weight: bold;
 }
@@ -183,7 +183,7 @@ body {
 }
 
 #contact-baugarten-images {
-  width: 90%;
+  width: 87.5%;
 }
 
 footer h6 {
