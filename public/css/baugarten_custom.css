@@ -96,6 +96,30 @@ body {
   }
 }
 
+#mobile-button-baugarten-people {
+  text-align: center;
+  display: none;
+}
+
+#mobile-button-baugarten-people a {
+  color: white;
+  margin-top: 10%;
+  background-color: rgb(225,66,44);
+  font-size: 24px;
+  height: 68px;
+  line-height: 68px;
+  display: none;
+}
+
+@media (max-width: 550px) {
+  #mobile-button-baugarten-people {
+    display: inline-block;
+  }
+  #mobile-button-baugarten-people a {
+    display: inline-block;
+  }
+}
+
 #baugarten-team-image {
   width: 75%;
   background-color: rgb(225,66,44);
@@ -135,7 +159,7 @@ body {
 #contact-baugarten {
   background-color: rgb(225,66,44);
   color: white;
-  margin-bottom: -2%
+  margin-bottom: -3%
 }
 
 #contact-baugarten ul li {
