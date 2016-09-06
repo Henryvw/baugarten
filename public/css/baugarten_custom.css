@@ -129,6 +129,12 @@ body {
   border-radius: 100%;
 }
 
+@media (max-width: 769px) {
+  #baugarten-team-image {
+    margin-top: 375%;
+  }
+}
+
 #baugarten-team {
   text-align: center;
 }
