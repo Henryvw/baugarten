@@ -152,6 +152,11 @@ body {
   padding-bottom: 3%;
 }
 
+@media (max-width: 550px) {
+  #baugarten-team {
+    background-color: rgb(225,66,44);
+  }
+
 #baugarten-bold {
   font-weight: bold;
 }
