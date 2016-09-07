@@ -15,7 +15,7 @@ body {
   min-height: 100vh;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 768px) {
   #hero{
     background-attachment: fixed;
     background-image: url('../images/humboldt_background_mobile.jpg');
@@ -43,7 +43,7 @@ body {
   background-color: rgb(225,66,44);
 }
 
-@media (max-width: 550px) {
+@media (max-width: 768px) {
   #hero-title h1 {
     text-align: center;
     font-size: 4.5rem;
@@ -87,7 +87,7 @@ body {
   line-height: 58px;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 768px) {
   #button-contact-baugarten a {
     font-size: 24px;
     height: 68px;
@@ -111,7 +111,7 @@ body {
   display: none;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 580px) {
   #mobile-button-baugarten-people {
     display: inline-block;
   }
@@ -152,15 +152,11 @@ body {
   padding-bottom: 3%;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 768px) {
   #baugarten-team {
+    padding-top: 5%;
     background-color: rgb(225,66,44);
-  }
-}
-
-@media (max-width: 769px) {
-  #baugarten-team {
-    margin-top: 375%;
+    padding-bottom: 25%;
   }
 }
 
