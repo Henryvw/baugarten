@@ -19,7 +19,7 @@ body {
   #hero{
     background-attachment: fixed;
     background-image: url('../images/humboldt_background_mobile.jpg');
-    min-height: 100vh;
+    background-size: 120%;
   }
 }
 
