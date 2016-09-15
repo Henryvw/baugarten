@@ -19,7 +19,7 @@ body {
   #hero{
     background-attachment: fixed;
     background-image: url('../images/humboldt_background_mobile.jpg');
-    background-size: 120%;
+    background-size: 140%;
   }
 }
 
@@ -83,8 +83,8 @@ body {
   background-color: rgb(225,66,44);
   display: inline-block;
   font-size: 14px;
-  height: 58px;
-  line-height: 58px;
+  height: 78px;
+  line-height: 78px;
 }
 
 @media (max-width: 768px) {
@@ -193,7 +193,7 @@ footer h6 {
   font-weight: 300;
   font-size: 1.5rem;
   padding-top: 5%;
-  padding-bottom: 5%;
+  padding-bottom: 1%;
   background-color: rgb(225,66,44);
   text-align: center;
 }
