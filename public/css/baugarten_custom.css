@@ -121,7 +121,7 @@ body {
 }
 
 #baugarten-team-image {
-  width: 75%;
+  width: 70%;
   background-color: rgb(225,66,44);
   border: 7px solid;
   border-color: rgb(225,66,44);
@@ -149,7 +149,7 @@ body {
   font-size: 12px;
   background-color: rgb(225,66,44);
   color: white;
-  padding-bottom: 3%;
+  padding-bottom: 5%;
 }
 
 @media (max-width: 768px) {
